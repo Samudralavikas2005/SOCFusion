@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Large binary / model files
+*.pth
+*.pkl
+*.bin
+*.h5
+*.onnx
+
+# Large data files
+*.csv
+*.zip
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Large log / output files
+file
+file2
+file3
+file4
+file.txt
+op.txt
+gat_full_diagnostic.txt
+socfusion_structure.txt
+onedrive_day2_inventory.txt
+day2_host_evidence_first300.txt
+process_ids_part1.txt
+process_ids_part2.txt
+process_ids_part3.txt
+attack_content_part1.txt
+attack_content_part2.txt
+attack_content_part3.txt
+validation_part1.txt
+validation_part2.txt
+drive_files.json
+
+# Backup files
+*.backup_*
+*.before_*
+*_backup.py
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+.tmp/
+
+# Scratch / temporary
+scratch/
+
+# ECAR raw data - root level only
+/ecar/
+
+# Data directory (raw datasets) - root level only
+/data/
+
+# Word docs (keep only images)
+*.docx
+
+# Compiled reports (keep source scripts)

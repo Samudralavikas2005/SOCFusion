@@ -1,0 +1,15 @@
+{
+    "learning_rate": 0.005,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "max_epochs": 150,
+    "early_stopping_patience": 20,
+    "random_seed": 42,
+    "batch_strategy": "full-graph",
+    "device": "cuda",
+    "hidden_dim": 64,
+    "num_heads": 4,
+    "num_classes": 15,
+    "gamma": 2.0
+}
